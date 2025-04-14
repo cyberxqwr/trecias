@@ -13,6 +13,41 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.App {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  padding: 8px;
+  margin-right: 10px;
+  min-width: 250px;
+}
+
+.search-bar button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.search-bar button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.user-list {
+  margin-top: 20px;
+}
+
+.user-card {
+  background-color: #221f1f;
+  border-radius: 4px;
+}
+
+
 a {
   font-weight: 500;
   color: #646cff;
